@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/vermelho"
+    >
+
+    <TextView
+        android:id="@+id/listagem"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/black"
+        android:paddingTop="10dp"
+        android:text="Listagem de usuário"
+        android:textColor="@color/azul"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:background="@color/vermelho"
+        android:paddingTop="10dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/txtNome"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/txtStatus"
+        android:background="@color/black"
+        android:paddingLeft="60dp"
+        android:paddingTop="10dp"
+        android:text="Nome:"
+        android:textColor="@color/azul"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/txtEndereco"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/txtNome"
+        android:background="@color/black"
+        android:paddingLeft="60dp"
+        android:paddingTop="10dp"
+        android:text="Endereço:"
+        android:textColor="@color/azul"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/txtTelefone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/txtEndereco"
+        android:background="@color/black"
+        android:paddingLeft="60dp"
+        android:paddingTop="10dp"
+        android:text="Telefone:"
+        android:textColor="@color/azul"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnProximo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTelefone"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/azul"
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp"
+        android:text="Próximo" />
+
+    <Button
+        android:id="@+id/btnAnterior"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnProximo"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="-80dp"
+        android:layout_marginEnd="210dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/azul"
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp"
+        android:text="Anterior" />
+
+    <Button
+        android:id="@+id/btnFechar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnAnterior"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/azul"
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp"
+        android:text="Fechar" />
+
+</RelativeLayout>
